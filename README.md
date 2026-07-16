@@ -1,2 +1,2 @@
-# Curr-culo
-HTML e CSS
+# Curriculo
+Utilizado HTML e CSS 
