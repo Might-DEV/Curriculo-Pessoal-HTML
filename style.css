@@ -38,7 +38,7 @@ a {
     color: var(--accent);
 }
 
-/* Nav */
+
 
 #navbar {
     position: sticky;
@@ -77,10 +77,11 @@ a {
     color: var(--accent);
 }
 
-/* Hero */
+
 
 #hero {
     padding: 64px 20px 40px;
+    
 }
 
 .hero-inner {
@@ -154,13 +155,14 @@ a {
 }
 
 #fotoPerfil {
-    border-radius: 10%;
+    border-radius: 5%;
     border: 0px solid var(--border);
     object-fit: cover;
     height: 140px;
+    padding-bottom: 10px;
 }
 
-/* Window chrome (mac-style bar) */
+
 
 .window-chrome {
     display: flex;
@@ -189,7 +191,7 @@ a {
     margin-left: 8px;
 }
 
-/* Sections */
+
 
 main {
     max-width: 900px;
@@ -223,7 +225,7 @@ main {
     color: var(--text);
 }
 
-/* Projetos */
+
 
 .projetos-grid {
     display: grid;
@@ -289,7 +291,7 @@ main {
     color: var(--accent);
 }
 
-/* Tags */
+
 
 .tech-tags {
     list-style: none;
@@ -310,7 +312,7 @@ main {
     border-radius: 6px;
 }
 
-/* Skills */
+
 
 .skills-grid {
     display: grid;
@@ -326,7 +328,7 @@ main {
     font-weight: 500;
 }
 
-/* Objetivos */
+
 
 .objetivos-list {
     list-style: none;
@@ -344,7 +346,7 @@ main {
     font-size: 14px;
 }
 
-/* Footer */
+
 
 #rodape {
     text-align: center;
@@ -354,7 +356,7 @@ main {
     font-family: var(--font-mono);
 }
 
-/* Responsive */
+
 
 @media (max-width: 600px) {
     .nav-links a {
@@ -363,7 +365,7 @@ main {
     }
 }
 
-/* Accessibility */
+
 
 a:focus-visible,
 .btn:focus-visible {
